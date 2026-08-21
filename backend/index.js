@@ -23,7 +23,7 @@ dns.setServers(["1.1.1.1","8.8.8.8"]);
 const port=process.env.PORT  || 5000
 
 app.use(cors({
-    origin:"http://localhost:5173",
+    origin:"https://chatapp-6c6q.onrender.com",
     credentials:true
 }))
 app.use(express.json())
